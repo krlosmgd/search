@@ -1,0 +1,27 @@
+.header {
+  background: var(--color-white);
+  border-top: 1px solid var(--color-border-secondary);
+  border-bottom: 1px solid var(--color-border-secondary);
+  padding: 4px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-detail {
+  display: flex;
+  align-items: center;
+}
+
+.header-detail__img {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-left: 12px;
+}
+
+@media(max-width:767px) {
+  .header {
+    padding: 14px 16px 0px 16px;
+  }
+}

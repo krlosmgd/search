@@ -1,0 +1,26 @@
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-modal-overlay);
+}
+
+.modal-container {
+  background:  var(--color-white);
+  margin: 0 25px;
+  border-radius: 4px;
+  transform: translateY(-50%);
+  top: 50%;
+  position: relative;
+}
+
+.modal-container .item-card__image {
+  min-width: 100%;
+}
+
+.modal-container .item-card {
+  margin: 0;
+  border: none;
+}

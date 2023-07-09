@@ -1,0 +1,28 @@
+.skeleton {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.skeleton__content {
+  flex-grow: 1;
+}
+
+.skeleton__line {
+  height: 10px;
+  background-color: var(--color-background);
+  margin-bottom: 10px;
+}
+
+.skeleton__line:nth-child(1n) {
+  width: 25%;
+}
+
+.skeleton__line:nth-child(2n) {
+  width: 50%;
+  height: 20px;
+}
+
+.skeleton__line:nth-child(3n) {
+  width: 100%;
+}
