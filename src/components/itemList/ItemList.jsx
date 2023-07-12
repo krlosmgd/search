@@ -12,10 +12,10 @@ const ItemList = ({ data }) => {
 		dispatch(setDetailResult(item))
 		dispatch(setShowModalDetailInResponsive(true));
 	}
-	
+
 	return data.map((item) => {
 		return (
-			!isSearching ? <Item url={item.url} key={item.id} description={item.description} title={item.title} click={() => {handleClickItem({item})}} /> : <Skeleton />
+			!isSearching ? <Item url={item.url} key={item.id} description={item.description} title={item.title} click={() => {handleClickItem({item})}} /> : <Skeleton key={Math.random()} />
 		);
 	});
 };

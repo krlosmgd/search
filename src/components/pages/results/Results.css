@@ -55,6 +55,10 @@
 }
 
 @media(max-width:767px) {
+  .results-body-content-data {
+    max-width: 100%;
+  }
+
   .results-body-content {
     margin: 18px 0px 24px 0px;
   }
