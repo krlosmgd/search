@@ -10,14 +10,14 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  height: calc(100vh - 117px);
+  height: calc(100vh - 112px);
   padding: 0px 16px;
 }
 
 .results-body-content {
   display: flex;
   flex-direction: row;
-  margin: 18px 40px 32px 150px;
+  margin: 18px 42px 32px 100px;
   overflow: auto;
 }
 
@@ -31,7 +31,11 @@
 }
 
 .results .search-figure .figure {
-  width: 110px;
+  width: 90px;
+}
+
+.results .search-input__search {
+  height: 28px;
 }
 
 .results .search-figure {
@@ -69,6 +73,6 @@
   }
 
   .results-body {
-    height: calc(100vh - 164px);
+    height: calc(100vh - 152px);
   }
 }

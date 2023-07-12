@@ -6,6 +6,7 @@
 }
 
 .item__link {
+  font-size: 12px;
   color: var(--color-link);
   text-decoration: none;
 }
@@ -13,9 +14,11 @@
 .item__title {
   color: var(--color-title);
   margin: 6px 0px;
+  font-size: 20px;
 }
 
 .item__description {
   margin: 0;
   color: var(--color-description);
+  font-size: 14px;
 }

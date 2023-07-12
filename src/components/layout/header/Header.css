@@ -20,6 +20,10 @@
   margin-left: 12px;
 }
 
+.header-text {
+  font-size: 14px;
+}
+
 @media(max-width:767px) {
   .header {
     padding: 14px 16px 0px 16px;

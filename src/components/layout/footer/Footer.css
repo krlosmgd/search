@@ -3,4 +3,6 @@
   padding: 16px 28px;
   display: flex;
   justify-content: space-between;
+  color: var(--color-text);
+  font-size: 15px;
 }
