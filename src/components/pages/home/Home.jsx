@@ -12,7 +12,7 @@ const Home = () => {
 	const navigate = useNavigate();
 
 	const redirectToResultsPage = (searchValue) => {
-		navigate("/results/" + searchValue);
+		navigate("/results/" + searchValue+"?page=1");
 	};
 
 	return (

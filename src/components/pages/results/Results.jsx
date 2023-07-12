@@ -18,6 +18,7 @@ import { debounceTime, fromEvent } from "rxjs";
 import { useParams } from "react-router-dom";
 import RecommendedSearch from './../../recommendedSearch/recommendedSearch';
 import NoResults from './../../noResults/NoResults';
+import Paginator from "../../paginator/Paginator";
 
 const Results = () => {
 	const dispatch = useDispatch();
@@ -75,6 +76,7 @@ const Results = () => {
 						<div className="results-body-content">
 							<div className="results-body-content-data">
 								<ItemList data={searchResults} />
+								<Paginator currentPage={3} totalPages={4} />
 							</div>
 							<div className="results-body-detail">
 								{isDesktop ? (
@@ -116,7 +118,6 @@ const Results = () => {
 					""
 				)}
 			</div>
-
 			<Footer />
 		</main>
 	);

@@ -4,13 +4,14 @@
 
 .results-body-content-data {
   width: 100%;
+  max-width: 65%;
 }
 
 .results-body {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  height: calc(100vh - 112px);
+  min-height: calc(100vh - 112px);
   padding: 0px 16px;
 }
 
